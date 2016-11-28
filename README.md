@@ -13,3 +13,7 @@ sh install-couchdb.sh
 ```
 
 Tested on Ubuntu 16.04
+
+## TODO: 
+
+- runit doesn't install properly on fresh Ubuntu images, due to Ubuntu now using systemd. Use [this answer on StackOverflow](http://askubuntu.com/a/665742) to fix the script after it errors out.
